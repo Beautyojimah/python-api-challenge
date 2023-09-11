@@ -45,7 +45,7 @@ Four scatter plots were created to showcase the following relationships:
 - Cloudiness vs. Latitude
 - Wind Speed vs. Latitude
 
-The visualised scatter plots are saved in the out_data folder as Fig1, Fig2, Fig3 and Fig4, respectively.
+The visualized scatter plots for each relationship is saved in the out_data folder as Fig1, Fig2, Fig3 and Fig4, respectively.
 
 
 ### Linear Regression Analysis
@@ -54,14 +54,14 @@ The cities were separated into Northern and Southern Hemispheres. Linear regress
 
 - Discussion about the linear relationship between temperature and Latitude based on Northern and Southern hemisphere:
   The relationship between temperature and latitude in the Northern hemisphere is such that an increase in the latitude results in a decrease in the temperature. Thus, showing a fairly strong inverse correlation. This is also reflected in the negative
-  r-value of -0.727624316994474 obtained.
+  r-value of -0.727 obtained.
 
-  In the Southern hemispher, however, an increase in the latitude results in an increase in the temperature. This evidences a very strong positive correlation as observed in the r-value of 0.7652433467911062.
+  In the Southern hemispher, however, an increase in the latitude results in an increase in the temperature. This evidences a very strong positive correlation as observed in the r-value of 0.765.
 
 - Discussion about the linear relationship between Humidity and Latitude based on Northern and Southern hemisphere:
-  The relationship between latitude and humidity in the Northern hemisphere is such that an increase in the latitude results in a slight trend indicating     the likelihood of an increase in humidity. Thus, showing a moderate correlation between humidity and latitude.    This is evident in an r-value of 0.045365895306276
+  The relationship between latitude and humidity in the Northern hemisphere is such that an increase in the latitude results in a slight trend indicating the likelihood of an increase in humidity. Thus, showing a moderate correlation between humidity and latitude.       This is evident in an r-value of 0.0453
 
-  In the Southern hemisphere, the negative r-value of -0.027978332157281332 suggests very weak negative relationship between latitude and humidity. As latitude increases, there's a slight trend indicating the likelihood of a decrease in humidity.
+  In the Southern hemisphere, the negative r-value of -0.0279 suggests very weak negative relationship between latitude and humidity. As latitude increases, there's a slight trend indicating the likelihood of a decrease in humidity.
 
 - Discussion about the linear relationship between Cloudiness and Latitude based on Northern and Southern hemisphere: 
   
@@ -84,8 +84,9 @@ As latitude increases in the Southern hemisphere, there's a trend suggesting a d
 - Python
 - Jupyter Notebook
 - Pandas
+- requests
 - hvplot.pandas
-- geoViews
+- geoviews
 - Geoapify API
 
 ### Ideal Weather Condition
