@@ -53,28 +53,28 @@ The visualized scatter plots for each relationship is saved in the out_data fold
 The cities were separated into Northern and Southern Hemispheres. Linear regression was then computed for each relationship. The results provided insights into the correlation between the various weather attributes and latitude.
 
 - Discussion about the linear relationship between temperature and Latitude based on Northern and Southern hemisphere:
-  The relationship between temperature and latitude in the Northern hemisphere is such that an increase in the latitude results in a decrease in the temperature. Thus, showing a fairly strong inverse correlation. This is also reflected in the negative
-  r-value of -0.727 obtained.
+  The relationship between temperature and latitude in the Northern hemisphere is such that an increase in the latitude results in a decrease in the temperature. Thus, showing a fairly strong inverse correlation. This is also reflected in the negative r-value of -0.775 obtained as of the time of conducting the analysis.
 
-  In the Southern hemispher, however, an increase in the latitude results in an increase in the temperature. This evidences a very strong positive correlation as observed in the r-value of 0.765.
+  In the Southern hemispher, however, an increase in the latitude results in an increase in the temperature. This evidences a very strong positive correlation as observed in the r-value of 0.751.
 
 - Discussion about the linear relationship between Humidity and Latitude based on Northern and Southern hemisphere:
-  The relationship between latitude and humidity in the Northern hemisphere is such that an increase in the latitude results in a slight trend indicating the likelihood of an increase in humidity. Thus, showing a moderate correlation between humidity and latitude.       This is evident in an r-value of 0.0453
+  The relationship between latitude and humidity in the Northern hemisphere is such that an increase in the latitude results in a slight trend indicating the likelihood of an increase in humidity. Thus, suggesting a weak positive correlation between humidity and latitude. This is evident in an r-value of 0.036.
 
-  In the Southern hemisphere, the negative r-value of -0.0279 suggests very weak negative relationship between latitude and humidity. As latitude increases, there's a slight trend indicating the likelihood of a decrease in humidity.
+  In the Southern hemisphere, the negative r-value of -0.064 suggests a weak negative relationship between latitude and humidity. As latitude increases, there's a slight trend indicating the likelihood of a decrease in humidity
 
 - Discussion about the linear relationship between Cloudiness and Latitude based on Northern and Southern hemisphere: 
   
-In the northern hemisphere, there is a very weak positive correlation between latitude and cloudiness. As latitude increases, there's a slight trend indicating an increase in cloudiness. However, as the r-value id close to zero, it suggest that the correlation is minimal. Hence, latitude may not be the key detrminant of cloudiness in the northern hemisphere.
+In the northern hemisphere, there is a weak positive correlation between cloudiness and latitude. As latitude increases, there's a slight trend indicating an increase in cloudiness. However, as the r-value is close to zero, it suggest that the correlation is minimal. Hence, latitude may not be the key determinant of cloudiness in the northern hemisphere.
 
-In the Southern hemisphere, the correlation is very weak but slightly stronger correlation than the northen hemisphere. It implies that as latitude increases, the cloudiness increases.
+Similarly, the Southern hemisphere shows an even weaker correlation between cloudiness and latitude. 
 
-The relationship between latitude and cloudiness in both hemispheres is weak. While there might be a very slight increase in cloudiness as one moves away from the equator, other geographical and meteorological factors are likely more influential in determining cloudiness.  
+A key observation from the scatterplot is that cloudiness at its minimum (0) and maximum (100%) is evenly distributed across the various levels of latitude. Even so, the relationship between latitude and cloudiness in both hemispheres is weak. While there might be a very slight increase in cloudiness as one moves away from the equator, other geographical and meteorological factors are likely more influential in determining cloudiness.  
 
 - Discussion about the linear relationship between Cloudiness and Latitude based on Northern and Southern hemisphere:
-As latitude increases in the Northern hemisphere, there's a slight trend indicating a decrease in wind speed observed. This suggests a  weak negative relationship between wind speed and latitiude. It suggests that while latitude might have some effect on wind speed in the Northern hemisphere, it's not the predominant factor.
 
-As latitude increases in the Southern hemisphere, there's a trend suggesting a decrease in wind speed observed. This suggests a weak negative correlation between wind speed and latitude. While this correlation is still weak, it's slightly stronger than in the Northern Hemisphere, indicating a more pronounced (yet subtle) effect of latitude on wind speed in the Southern Hemisphere.
+As latitude increases in the Northern hemisphere, there's a very slight trend indicating a increase in wind speed observed. This suggests a  weak positive relationship between wind speed and latitiude. It suggests that while latitude might have some effect on wind speed in the Northern hemisphere, it's not the predominant factor.
+
+As latitude increases in the Southern hemisphere, there's a trend suggesting a decrease in wind speed observed. This suggests a weak negative correlation between wind speed and latitude. While this correlation is still weak, it's slightly stronger when compared to the Northern Hemisphere, indicating a more pronounced (yet subtle) effect of latitude on wind speed in the Southern Hemisphere. 
 
 
 ## VacationPy
